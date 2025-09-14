@@ -3,7 +3,7 @@ import html as html_lib
 import streamlit as st
 
 def make_id(title):
-    return "card-" + re.sub(r'[^0-9a-zA-Z\-]+', '-', title)
+    return "card-" + re.sub(r'[^0-9a-zA-Z\\-]+', '-', title)
 
 card_13 = """Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
 
@@ -24,7 +24,7 @@ No te escribí ni llamé por verte con alguien más, colapsé en llanto mucho an
 Lamento terminar esta carta de esta manera, pero ya no hay forma de expresar el real cariño y amor que tengo por ti. Me niego a despedirme.
 """
 
-card_14 = """Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera sé si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
+card_14 = """Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera se si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
 
 Otra vez me congelé, quise despedirme pero nuevamente, no sabía cómo. Las lágrimas se secan y sedimentan en mis lentes de sol, que debo lavar diariamente, de cierta forma me gusta ocultar parte del sufrimiento cuando me veo al espejo.
 
@@ -38,40 +38,122 @@ Estoy en mi casa y aún siento un poco de tu aroma perdiéndose en mi chaqueta, 
 
 Las plantas brotan y muchos dicen que el amor es hormonal, pero el crecimiento de estas y especialmente en frutales es algo que perdura, los protegen y dan sostén a nuevos tejidos. Es cierto, es hormonal, pero gracias a eso llegan a la luz, gracias a eso despiertan después de un horrible invierno, floreciendo. Cuanto me gustaría verte florecer y me duele tanto que te hayas privado de ello, cuando era mi mayor deseo.
 
-Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
+Florece, vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
+"""
+
+card_15 = """Sigo ejercitándome, quiero ser fuerte, lo suficiente para que pueda parecerte atractivo, porque decirme eso fue humillarme, yo no me rindo. Es difícil, tengo dos motivaciones: estar en mi cama y trabajar mi cuerpo, ambas me atraen pero son incompatibles.
+
+Es complejo dormir, tengo pensamientos que no callan ni con la canción más destroza oídos que pueda encontrar. Quiero apagarlo y despertar contigo, amo dormir, recostarme y escuchar música hasta que me retumben los oídos y ahogar irónicamente el tinnitus que cada vez empeora. Al despertar veo las instantáneas que tomé con la polaroid, mi rostro con genuina felicidad, las flores y las energéticas de nuestras noches de estudio (no estudiamos tanto).
+
+Cómo se le envían flores a alguien que no quiere estar conmigo, son las flores las que te gustan o es el detalle acaso, podrían ser ambas y es lo más probable. Pero que caso tiene, es patético y un mal recuerdo, algo que debí haber hecho antes. Siempre tuve una excusa y me consuela que prioricé tu bienestar, pero descuidé el romanticismo o la emoción y es tan triste.
+
+Algo que contribuyó al bloqueo emocional que tuve fue que quería seguir a tu lado, pero acabó y hasta hace no mucho no entendía por qué, solo estaba seguro que te aburriste de mí y ya no me amabas. Saber lo que pasó me reconforta en el sentido de que ya no existe la injusticia, sino el entendimiento y el deseo de mejorar, pero pega tan fuerte que quieras o esperes que mejore para la próxima persona. Odio a esa persona, no la conozco y la detesto, porque significa que estaría equivocado, y estoy tan seguro que eres tú la indicada. 
+
+Solo te amaré a ti, quizás pueda algún día volver a querer, pero nunca más voy a amar, no así. Necesito encontrar la manera de ser el indicado, el amor de tu vida, ya he comprendido cosas y estoy tan seguro que lo soy o seré. Mis bajas expectativas de que me elijas luchan contra mi único deseo de verte feliz y no seré hipócrita, porque a pesar de que es cierto, sería mucho mejor si lo fueras conmigo, en mis brazos.
+
+Eres la mujer de mis sueños, dices que no aprecié tu amor pero es mentira. En mi cabeza fui el pololo perfecto, sabía que tenía algo mal dentro de mí pero jamás iba a permitir dañarte o que afectara a nuestra relación, esa era la idea al menos. Cuanto quisiera haber podido conversar esto antes, de la manera correcta, lo hubiese hecho todo por ti. Siempre supe que me amabas demasiado y al igual que tú pensaba que mi amor era mayor o igual, no creas lo contrario.
+
+Hoy esa peste que tenía dentro desapareció, me comporté como un imbécil bajo la excusa de que me terminaste, que me dejaste de amar y tenía que ser feliz. No hay día que no llore la falta que me haces, estoy destrozado al punto de que no he comido absolutamente nada en todo el día. No hay mujer como tú, no hay una persona como tú, eso lo supe desde el primer día que empezamos a estar juntos.
+
+Debí haber hecho más, siento que lo di todo pero no soy perfecto, tonto es un adjetivo corto a lo que fui, ingenuo. Tantos años sin darme cuenta y en una noche pudiste mostrarme mis bajezas y hacerme el hombre más triste del mundo, por mis acciones.
 """
 
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
     {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
+    {"id": make_id("15-09-2025"), "title": "15-09-2025", "content": card_15},
 ]
 
 css = """
 <style>
 :root{ -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
-html, body, .stApp { -webkit-user-select:none !important; -moz-user-select:none !important; -ms-user-select:none !important; user-select:none !important; font-family: Georgia, 'Times New Roman', serif; }
-.nav{ position:sticky; top:0; background:rgba(255,255,255,0.95); padding:10px; z-index:1000; display:flex; gap:8px; flex-wrap:wrap; align-items:center; border-bottom:1px solid rgba(0,0,0,0.06); }
+
+/* Base font */
+html, body, .stApp {
+    font-family: Georgia, 'Times New Roman', serif;
+    -webkit-user-select:none !important;
+    -moz-user-select:none !important;
+    -ms-user-select:none !important;
+    user-select:none !important;
+}
+
+/* Nav bar */
+.nav{
+    position:sticky; top:0; background:var(--background-color);
+    padding:10px; z-index:1000; display:flex; gap:8px;
+    flex-wrap:wrap; align-items:center;
+    border-bottom:1px solid rgba(0,0,0,0.06);
+}
 .nav a{ text-decoration:none; }
-.nav button{ padding:8px 12px; border:1px solid rgba(0,0,0,0.08); border-radius:6px; background:transparent; cursor:pointer; font-weight:600; font-family: Georgia, 'Times New Roman', serif; }
-.card{ border-radius:8px; padding:20px; margin:24px 0; box-shadow:0 2px 8px rgba(0,0,0,0.04); background:#ffffff; }
-.card h3{ margin:0 0 8px 0; font-size:18px; font-family: Georgia, 'Times New Roman', serif; }
-.card-content{ white-space:pre-wrap; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; text-align:justify; font-family: Georgia, 'Times New Roman', serif; line-height:1.6; }
-.card-content p{ text-align:justify; margin:0 0 1rem 0; }
+.nav button{
+    padding:8px 12px;
+    border:1px solid rgba(0,0,0,0.15);
+    border-radius:6px;
+    background:transparent;
+    cursor:pointer;
+    font-weight:600;
+    font-family: Georgia, 'Times New Roman', serif;
+    color: var(--text-color);
+}
+
+/* Cards */
+.card{
+    border-radius:8px;
+    padding:20px;
+    margin:24px 0;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+    background:var(--card-bg);
+    color: var(--text-color);
+}
+.card h3{
+    margin:0 0 8px 0;
+    font-size:18px;
+}
+.card-content{
+    white-space:pre-wrap;
+    text-align:justify;
+    line-height:1.6;
+}
+.card-content p{
+    text-align:justify;
+    margin:0 0 1rem 0;
+}
+
+/* Light mode */
+@media (prefers-color-scheme: light) {
+    :root{
+        --card-bg: #ffffff;
+        --text-color: #222222;
+        --background-color: rgba(255,255,255,0.95);
+    }
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+    :root{
+        --card-bg: #1e1e1e;
+        --text-color: #e6e6e6;
+        --background-color: rgba(30,30,30,0.95);
+    }
+}
 </style>
 """
 
 st.markdown(css, unsafe_allow_html=True)
 
-nav_html = '<div class="nav">' + ''.join(f'<a href="#{c["id"]}"><button>{c["title"]}</button></a>' for c in cards) + '</div>'
+# Barra de navegación
+nav_html = '<div class="nav">' + ''.join(
+    f'<a href="#{c["id"]}"><button>{c["title"]}</button></a>' for c in cards
+) + '</div>'
 st.markdown(nav_html, unsafe_allow_html=True)
 
+# Renderizado de cartas
 for c in cards:
     text = c["content"].replace("\r\n", "\n").replace("\r", "\n")
     paragraphs = [p for p in text.split("\n\n")]
     escaped_paras = []
     for p in paragraphs:
-        p_stripped = p.rstrip()
-        p_escaped = html_lib.escape(p_stripped).replace("\n", "<br>")
+        p_escaped = html_lib.escape(p.strip()).replace("\n", "<br>")
         escaped_paras.append(f"<p>{p_escaped}</p>")
     content_html = "".join(escaped_paras) if escaped_paras else "<p></p>"
 
