@@ -36,8 +36,8 @@ Estoy en mi casa y aún siento un poco de tu aroma perdiéndose en mi chaqueta, 
 
 Las plantas brotan y muchos dicen que el amor es hormonal, pero el crecimiento de estas y especialmente en frutales es algo que perdura, los protegen y dan sostén a nuevos tejidos. Es cierto, es hormonal, pero gracias a eso llegan a la luz, gracias a eso despiertan después de un horrible invierno, floreciendo. Cuanto me gustaría verte florecer y me duele tanto que te hayas privado de ello, cuando era mi mayor deseo.
 
-Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo."""
-
+Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
+"""
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
     {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
