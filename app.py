@@ -3,7 +3,8 @@ import streamlit as st
 def make_id(title):
     return "card-" + title.replace(" ", "-").replace("/", "-")
 
-card_13 = """Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
+card_13 = """
+Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
 
 De cierta forma obtuve alivio con esa charla, pero la indiferencia y el resentimiento que coseché me revuelven el estomago y aprietan mi pecho profundamente. Es mi culpa, cuanto quisiera decir que no lo es: que no es de nadie, pero es mía.
 
