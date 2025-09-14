@@ -49,13 +49,14 @@ cards = [
 css = """
 <style>
 :root{ -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
-html, body, .stApp { -webkit-user-select:none !important; -moz-user-select:none !important; -ms-user-select:none !important; user-select:none !important; }
+html, body, .stApp { -webkit-user-select:none !important; -moz-user-select:none !important; -ms-user-select:none !important; user-select:none !important; font-family: Georgia, 'Times New Roman', serif; }
 .nav{ position:sticky; top:0; background:rgba(255,255,255,0.95); padding:10px; z-index:1000; display:flex; gap:8px; flex-wrap:wrap; align-items:center; border-bottom:1px solid rgba(0,0,0,0.06); }
 .nav a{ text-decoration:none; }
-.nav button{ padding:8px 12px; border:1px solid rgba(0,0,0,0.08); border-radius:6px; background:transparent; cursor:pointer; font-weight:600; }
+.nav button{ padding:8px 12px; border:1px solid rgba(0,0,0,0.08); border-radius:6px; background:transparent; cursor:pointer; font-weight:600; font-family: Georgia, 'Times New Roman', serif; }
 .card{ border-radius:8px; padding:20px; margin:24px 0; box-shadow:0 2px 8px rgba(0,0,0,0.04); background:#ffffff; }
-.card h3{ margin:0 0 8px 0; font-size:18px; }
-.card-content{ white-space:pre-wrap; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
+.card h3{ margin:0 0 8px 0; font-size:18px; font-family: Georgia, 'Times New Roman', serif; }
+.card-content{ white-space:pre-wrap; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; text-align:justify; font-family: Georgia, 'Times New Roman', serif; line-height:1.6; }
+.card-content p{ text-align:justify; margin:0 0 1rem 0; }
 </style>
 """
 
@@ -66,10 +67,11 @@ st.markdown(nav_html, unsafe_allow_html=True)
 
 for c in cards:
     text = c["content"].replace("\r\n", "\n").replace("\r", "\n")
-    paragraphs = [p.strip() for p in text.split("\n\n") if p.strip() != ""]
+    paragraphs = [p for p in text.split("\n\n")]
     escaped_paras = []
     for p in paragraphs:
-        p_escaped = html_lib.escape(p).replace("\n", "<br>")
+        p_stripped = p.rstrip()
+        p_escaped = html_lib.escape(p_stripped).replace("\n", "<br>")
         escaped_paras.append(f"<p>{p_escaped}</p>")
     content_html = "".join(escaped_paras) if escaped_paras else "<p></p>"
 
