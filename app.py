@@ -1,8 +1,9 @@
 import streamlit as st
-from streamlit.components.v1 import html
 
-cards = [
-    {"id": "card-2025-09-13", "title": "13-09-2025", "content": "Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
+def make_id(title):
+    return "card-" + title.replace(" ", "-").replace("/", "-")
+
+card_13 = """Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
 
 De cierta forma obtuve alivio con esa charla, pero la indiferencia y el resentimiento que coseché me revuelven el estomago y aprietan mi pecho profundamente. Es mi culpa, cuanto quisiera decir que no lo es: que no es de nadie, pero es mía.
 
@@ -18,8 +19,10 @@ Dios sabe cuanto te amo y como jamás te olvidaré, no importa lo que pase, mi p
 
 No te escribí ni llamé por verte con alguien más, colapsé en llanto mucho antes ese día, ni siquiera te había visto. De todas formas es un dolor inimaginable.
 
-Lamento terminar esta carta de esta manera, pero ya no hay forma de expresar el real cariño y amor que tengo por ti. Me niego a despedirme."},
-    {"id": "card-2025-09-14", "title": "14-09-2025", "content": "Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera se si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
+Lamento terminar esta carta de esta manera, pero ya no hay forma de expresar el real cariño y amor que tengo por ti. Me niego a despedirme.
+"""
+
+card_14 = """Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera se si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
 
 Otra vez me congelé, quise despedirme pero nuevamente, no sabía cómo. Las lágrimas se secan y sedimentan en mis lentes de sol, que debo lavar diariamente, de cierta forma me gusta ocultar parte del sufrimiento cuando me veo al espejo.
 
@@ -33,79 +36,40 @@ Estoy en mi casa y aún siento un poco de tu aroma perdiéndose en mi chaqueta, 
 
 Las plantas brotan y muchos dicen que el amor es hormonal, pero el crecimiento de estas y especialmente en frutales es algo que perdura, los protegen y dan sostén a nuevos tejidos. Es cierto, es hormonal, pero gracias a eso llegan a la luz, gracias a eso despiertan después de un horrible invierno, floreciendo. Cuanto me gustaría verte florecer y me duele tanto que te hayas privado de ello, cuando era mi mayor deseo.
 
-Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo."}
+Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
+"""
+
+cards = [
+    {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
+    {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
 ]
 
-st.markdown("""
+css = '''
 <style>
-:root {
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-html, body, .stApp {
-  -webkit-user-select: none !important;
-  -moz-user-select: none !important;
-  -ms-user-select: none !important;
-  user-select: none !important;
-}
-.nav {
-  position: sticky;
-  top: 0;
-  background: rgba(255,255,255,0.95);
-  padding: 10px;
-  z-index: 1000;
-  display: flex;
-  gap: 8px;
-  flex-wrap: wrap;
-  align-items: center;
-  border-bottom: 1px solid rgba(0,0,0,0.06);
-}
-.nav a { text-decoration: none; }
-.nav button {
-  padding: 8px 12px;
-  border: 1px solid rgba(0,0,0,0.08);
-  border-radius: 6px;
-  background: transparent;
-  cursor: pointer;
-  font-weight: 600;
-}
-.card {
-  border-radius: 8px;
-  padding: 20px;
-  margin: 24px 0;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
-  background: #ffffff;
-}
-.card h3 {
-  margin: 0 0 8px 0;
-  font-size: 18px;
-}
-.card-content {
-  white-space: pre-wrap;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
+:root{ -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
+.nav{ position:sticky; top:0; background:rgba(255,255,255,0.95); padding:10px; z-index:1000; display:flex; gap:8px; flex-wrap:wrap; align-items:center; border-bottom:1px solid rgba(0,0,0,0.06); }
+.nav a{ text-decoration:none; }
+.nav button{ padding:8px 12px; border:1px solid rgba(0,0,0,0.08); border-radius:6px; background:transparent; cursor:pointer; font-weight:600; }
+.card{ border-radius:8px; padding:20px; margin:24px 0; box-shadow:0 2px 8px rgba(0,0,0,0.04); background:#ffffff; }
+.card h3{ margin:0 0 8px 0; font-size:18px; }
+.card-content{ white-space:pre-wrap; -webkit-user-select:none; -moz-user-select:none; -ms-user-select:none; user-select:none; }
 </style>
-""", unsafe_allow_html=True)
+'''
 
-nav_html = '<div class="nav">'
+st.markdown(css, unsafe_allow_html=True)
+
+nav_items = []
 for c in cards:
-    nav_html += f'<a href="#{c["id"]}"><button>{c["title"]}</button></a>'
-nav_html += '</div>'
-
+    nav_items.append(f'<a href="#'+c["id"]+'"><button>'+c["title"]+'</button></a>')
+nav_html = '<div class="nav">' + ''.join(nav_items) + '</div>'
 st.markdown(nav_html, unsafe_allow_html=True)
 
 for c in cards:
-    st.markdown(
-        f'''
-        <div class="card" id="{c["id"]}" oncopy="return false" oncut="return false" onpaste="return false" oncontextmenu="return false" draggable="false" unselectable="on">
-          <h3>{c["title"]}</h3>
-          <div class="card-content">{c["content"]}</div>
-        </div>
-        ''',
-        unsafe_allow_html=True
-    )
+    safe_content = c["content"].replace("{", "{{").replace("}", "}}")
+    card_html = """
+    <div class="card" id="{id}" oncopy="return false" oncut="return false" onpaste="return false" oncontextmenu="return false" draggable="false" unselectable="on">
+      <h3>{title}</h3>
+      <div class="card-content">{content}</div>
+    </div>
+    """.format(id=c["id"], title=c["title"], content=safe_content)
+    st.markdown(card_html, unsafe_allow_html=True)
