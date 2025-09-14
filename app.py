@@ -5,7 +5,6 @@ def make_id(title):
 
 card_13 = """Hablé contigo, cuanto hubiese querido que fuera en persona, pero el ruido en mi cabeza no me daba paz. Quiero morir, nunca he estado peor en mi vida, perdí a la mujer de mi vida por ser inmaduro, en todo aspecto.
 
-
 De cierta forma obtuve alivio con esa charla, pero la indiferencia y el resentimiento que coseché me revuelven el estomago y aprietan mi pecho profundamente. Es mi culpa, cuanto quisiera decir que no lo es: que no es de nadie, pero es mía.
 
 Me arrepiento no haber estado para ti, porque si hubiese podido comunicarme no te habría perdido, al menos en el sentimiento. Porque te amo más que a nadie en el mundo, más que a mis padres, más que a mis abuelos, y te amaría más que a un hijo. El peor error de mi vida fue perderte y no solo eso, sino que las peores palabras las escuchaste de la persona que aún amabas, jamás voy a perdonarme a mí mismo, pero cuanto desearía que tu me perdonaras, porque aún no estoy seguro si lo hiciste.
@@ -37,8 +36,7 @@ Estoy en mi casa y aún siento un poco de tu aroma perdiéndose en mi chaqueta, 
 
 Las plantas brotan y muchos dicen que el amor es hormonal, pero el crecimiento de estas y especialmente en frutales es algo que perdura, los protegen y dan sostén a nuevos tejidos. Es cierto, es hormonal, pero gracias a eso llegan a la luz, gracias a eso despiertan después de un horrible invierno, floreciendo. Cuanto me gustaría verte florecer y me duele tanto que te hayas privado de ello, cuando era mi mayor deseo.
 
-Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
-"""
+Florecer y vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo."""
 
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
@@ -66,11 +64,25 @@ nav_html = '<div class="nav">' + ''.join(nav_items) + '</div>'
 st.markdown(nav_html, unsafe_allow_html=True)
 
 for c in cards:
-    safe_content = c["content"].replace("{", "{{").replace("}", "}}")
-    card_html = """
-    <div class="card" id="{id}" oncopy="return false" oncut="return false" onpaste="return false" oncontextmenu="return false" draggable="false" unselectable="on">
-      <h3>{title}</h3>
-      <div class="card-content">{content}</div>
+    # escape braces for .format and convert newlines to HTML while keeping paragraphs
+    escaped = c["content"].replace("{", "{{").replace("}", "}}")
+    # escape HTML chars to avoid injection, normalize line endings, then convert paragraphs
+    content_html = (escaped.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+                    .replace("
+", "
+").replace("
+", "
+"))
+    # mark double-newline paragraphs, then replace single newlines with <br>, then restore paragraph gaps
+    content_html = content_html.replace("
+
+", "@@PAR@@").replace("
+", "<br>").replace("@@PAR@@", "<br><br>")
+
+    card_html = f'''
+    <div class="card" id="{c["id"]}" oncopy="return false" oncut="return false" onpaste="return false" oncontextmenu="return false" draggable="false" unselectable="on">
+      <h3>{c["title"]}</h3>
+      <div class="card-content">{content_html}</div>
     </div>
-    """.format(id=c["id"], title=c["title"], content=safe_content)
+    '''
     st.markdown(card_html, unsafe_allow_html=True)
