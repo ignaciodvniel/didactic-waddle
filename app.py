@@ -24,7 +24,7 @@ No te escribí ni llamé por verte con alguien más, colapsé en llanto mucho an
 Lamento terminar esta carta de esta manera, pero ya no hay forma de expresar el real cariño y amor que tengo por ti. Me niego a despedirme.
 """
 
-card_14 = """Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera se si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
+card_14 = """Nada de lo que me digas me quita de la cabeza que eres el amor de mi vida, aunque entendí muchas cosas. Ni siquiera sé si alguna vez verás estas cartas, porque no planeo avisarte de ellas, decidiste alejarte de mí y lo entiendo.
 
 Otra vez me congelé, quise despedirme pero nuevamente, no sabía cómo. Las lágrimas se secan y sedimentan en mis lentes de sol, que debo lavar diariamente, de cierta forma me gusta ocultar parte del sufrimiento cuando me veo al espejo.
 
