@@ -83,11 +83,29 @@ Dices que no soy alma gemela, tu amor real o el amor de tu vida. Pero es injusto
 No voy a renunciar a la vida que imaginé contigo, donde somos tan felices. Ahora entiendo por qué si amas debes dejar ir, porque una vez nos separamos nos damos cuenta todo lo que hicimos mal, es un golpe tan duro de realidad que refuerza mis convicciones. Especialmente la convicción de luchar por ti hasta el último de mis días, despertar y llamarte mi esposa, porque ver Orgullo y Prejuicio por más ridículo que te parezca, era fruto del arrepentimiento de negarme a verla contigo, y como desearía poder voltear a tus ojos en cada escena en que pensé en ti.
 """
 
+card_17 ="""Hoy soñé contigo, dormíamos juntos junto a una luz morada tenue, te acurrucabas y ponía mi mano sobre tu brazo, cuando inmediatamente desperté por mi papá tocando mi puerta. No pude hacer otra cosa que irme a su pieza a seguir durmiendo e intentar volver a esa realidad, solo lo intenté.
+
+Quisiera decirte tantas cosas pequeñas, como que tengo un yogur en el refrigerador que se está echando a perder, una pechuga de pollo que cociné ayer y no pude comer, el agua se acaba y las cosas que me fuerzo a comer no se digieren. Quién diría que yo no tendría hambre.
+
+Esta casa es tan grande y vacía que me siento como un hámster en una jaula, tengo una televisión para ver películas, una cocina con todo lo que quiero y aquí estoy, en una cueva que llamo mi pieza. Soy un roedor herido, tan frágil, porque llamarme perro es demasiado para lo soy.
+
+Sinceridad es la palabra de hoy y me pregunto si lo fui alguna vez con otra persona que no seas tú ¿Quién soy? Ya sé quien soy: soy un buscador, una conciencia en aprendizaje, un alma libre que obra diariamente, pero mi rol en la vida es de ser hombre, un hombre que ama incondicionalmente.
+
+Soy tan feliz porque despejé mi mente, aunque sea parcialmente, veo la vida de otra manera, pero aún soy desdichado porque perdí mi propósito de vida. Cuán feliz sería de tenerte unos minutos en mis brazos, de volver al 13-09 a las 11:55, acariciar tu rostro y decirte lo mucho que lo siento, que te amo. Hacer que vuelvas a confiar en mí, cambiar mi rostro, ser un cuerpo nuevo del que te puedas enamorar.
+
+No tuvimos exactamente lo que necesitábamos, pero todavía queda un largo camino, todavía nos quedan objetivos,  algunos quedaron en el camino pero siempre podremos volver a crear nuevos. Tomaré cada ladrillo y lo pondré en su lugar,  haré la estructura más fuerte que pueda conocer el mundo. Solo debes decírmelo.
+
+Tienes el poder de destruirme, con un solo mensaje y mi garganta se cierra con solo pensarlo, ámame por favor, nunca dejes de hacerlo aunque sea un poco. Volveré a ti algún día, tocaré tus labios, tu cintura y finalmente tu frente, al igual que esa primera noche. Volveremos a bailar, a ver películas, a caminar durante el atardecer, a tomar un café.
+
+Escríbeme, vuelve y permíteme deshacerme ante ti. Si quise dormir a tu lado, si quise que me miraras, si quise que te quedaras acurrucada en mi brazo.
+"""
+
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
     {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
     {"id": make_id("15-09-2025"), "title": "15-09-2025", "content": card_15},
     {"id": make_id("especial"), "title": "De un día cualquiera", "content": card_16},
+    {"id": make_id("existencial"), "title": "Por favor", "content": card_17},
 ]
 
 css = """
