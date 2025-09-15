@@ -60,10 +60,34 @@ Hoy esa peste que tenía dentro desapareció, me comporté como un imbécil bajo
 Debí haber hecho más, siento que lo di todo pero no soy perfecto, tonto es un adjetivo corto a lo que fui, ingenuo. Tantos años sin darme cuenta y en una noche pudiste mostrarme mis bajezas y hacerme el hombre más triste del mundo, por mis acciones.
 """
 
+card_16 = """Vuelve a quererme, vuelve a decirme por qué no pudimos hablar antes, habían soluciones. Por qué te fuiste, prometiste que no lo harías al igual que yo, prometiste amarme para siempre y ahora estás tan lejos.
+
+Soy invisible a tus ojos, y tu eres un sol que recuerda la felicidad más grande de mi vida. Recostado en mi cama, no puedo hacer otra cosa que no sea pensar en ti, en el metro, en la micro, camino a la U, camino a mi casa, camino a la esquina, es igual. No extraño el sentimiento, extraño a la persona,  extraño tu risa y tu calor, extraño muchas cosas, extraño a mi mejor amiga, pero dejaste de serlo meses antes de terminar y cuanto dolió.
+
+Siento que te ríes de mí, ¿por qué no pudiste empatizar conmigo? no soy un monstruo, no soy una mala persona, ¿por qué permites que me atormenten?, ¿por qué tus amigas me destrozan y no te importa? Quiero la paz que me dabas, apoyar mi cabeza en la almohada y saber que estabas ahí, saber que mi día podía ser mejor al verte otra vez. Comprender qué es para ti más de 3 años amándonos.
+
+Es cierto, no fui el mejor pololo, lo intenté con toda mi alma y cuerpo, y es lo que me reconforta y permite que pueda pseudo-dormir. Fui incapaz de decirte mis tormentos en la relación y no seré específico, porque ya no tiene caso, no quiero recriminarte nada, sino que me entiendas. 
+
+Siempre me sentí menos que tú, siempre sentí que la llama se apagaba y que debía reprimir mi intensidad, mis ganas de entregarte mi cariño. Nunca me sentí incluido en tu mundo, sentir el peso de la indiferencia, sentir que tus amigos y amigas me detestaban ¿Por qué debía esperar callado a que terminaras de hablar con alguien en tu celular?, ¿por qué lo hacías si estabas conmigo? Quiero respuestas que no obtuve, quiero que me retribuyas ese amor que esperaba recibir, pero ya te fuiste.
+
+Mis amigos desde el principio quisieron incluirte, pero comprendo tú no quisiste hacerlo, no congeniaste ¿Por qué yo nunca tuve esa oportunidad, una oportunidad real? ¿Por qué tenías esos pequeños rencores random hacia mí?
+
+Estar una relación con alguien inestable emocionalmente, con posterior depresión e inseguridades latentes es muy difícil, pero te comprendí tanto y no puedes negarlo. Me quedé en las buenas y en las malas, siempre deseando tu felicidad, porque pensé que llegaría el día en que la tormenta del inicio de la vida adulta se despejaría y pudiésemos ver la inmensidad que nos deparaba, juntos.
+
+Quiero partir de aquí, y no quiero hacerlo solo, te necesito conmigo. Te conozco desde que era un tonto adolescente, estuve contigo días, semanas enteras, meses, donde solo nos separábamos para buscar ropa o visitar familiares ¿Qué fue lo que pasó? Me repito a mí mismo, y aunque obtengo respuestas sigo sin entender cómo podrían ser válidas para acabar así.
+
+Jamás fuimos a Punta Arenas, ya no iremos a Europa, a algún país anglosajón. Ya no podré mostrarte esa reconfortante brisa que lo era aunque cortara mi cara o la quemara del frío en la Patagonia, ya no podré hacerlo, añorando tanto que hayas estado en esos momentos.
+
+Dices que no soy alma gemela, tu amor real o el amor de tu vida. Pero es injusto, no conocía el mundo y ahora que conozco un poco sé que no me importa, daría todo por estar junto a ti, mi vida por tu existencia. No hay otra mujer que me interese, no hay nadie más que tú y a pesar de todo lo que tú creas, ahora es así… Y cuán seguro estoy de ello.
+
+No voy a renunciar a la vida que imaginé contigo, donde somos tan felices. Ahora entiendo por qué si amas debes dejar ir, porque una vez nos separamos nos damos cuenta todo lo que hicimos mal, es un golpe tan duro de realidad que refuerza mis convicciones. Especialmente la convicción de luchar por ti hasta el último de mis días, despertar y llamarte mi esposa, porque ver Orgullo y Prejuicio por más ridículo que te parezca, era fruto del arrepentimiento de negarme a verla contigo, y como desearía poder voltear a tus ojos en cada escena en que pensé en ti.
+"""
+
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
     {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
     {"id": make_id("15-09-2025"), "title": "15-09-2025", "content": card_15},
+    {"id": make_id("especial"), "title": "De un día cualquiera", "content": card_15},
 ]
 
 css = """
