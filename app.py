@@ -39,6 +39,8 @@ Estoy en mi casa y aún siento un poco de tu aroma perdiéndose en mi chaqueta, 
 Las plantas brotan y muchos dicen que el amor es hormonal, pero el crecimiento de estas y especialmente en frutales es algo que perdura, los protegen y dan sostén a nuevos tejidos. Es cierto, es hormonal, pero gracias a eso llegan a la luz, gracias a eso despiertan después de un horrible invierno, floreciendo. Cuanto me gustaría verte florecer y me duele tanto que te hayas privado de ello, cuando era mi mayor deseo.
 
 Florece, vuelve a mí, vuelve a mí de la manera que quieras. Quédate conmigo.
+
+PD: Acaba de ganar la U 3-0 al colo, no siento nada xd.
 """
 
 card_15 = """Sigo ejercitándome, quiero ser fuerte, lo suficiente para que pueda parecerte atractivo, porque decirme eso fue humillarme, yo no me rindo. Es difícil, tengo dos motivaciones: estar en mi cama y trabajar mi cuerpo, ambas me atraen pero son incompatibles.
