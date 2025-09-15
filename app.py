@@ -78,7 +78,7 @@ Quiero partir de aquí, y no quiero hacerlo solo, te necesito conmigo. Te conozc
 
 Jamás fuimos a Punta Arenas, ya no iremos a Europa, a algún país anglosajón. Ya no podré mostrarte esa reconfortante brisa que lo era aunque cortara mi cara o la quemara del frío en la Patagonia, ya no podré hacerlo, añorando tanto que hayas estado en esos momentos.
 
-Dices que no soy alma gemela, tu amor real o el amor de tu vida. Pero es injusto, no conocía el mundo y ahora que conozco un poco sé que no me importa, daría todo por estar junto a ti, mi vida por tu existencia. No hay otra mujer que me interese, no hay nadie más que tú y a pesar de todo lo que tú creas, ahora es así… Y cuán seguro estoy de ello.
+Dices que no soy alma gemela, tu amor real o el amor de tu vida. Pero es injusto, no conocía el mundo y ahora que conozco un poco sé que no me importa, daría todo por estar junto a ti, mi vida por tu existencia. No hay otra mujer que me interese, no hay nadie más que tú y a pesar de todo lo que tú creas, es así… Y cuán seguro estoy de ello.
 
 No voy a renunciar a la vida que imaginé contigo, donde somos tan felices. Ahora entiendo por qué si amas debes dejar ir, porque una vez nos separamos nos damos cuenta todo lo que hicimos mal, es un golpe tan duro de realidad que refuerza mis convicciones. Especialmente la convicción de luchar por ti hasta el último de mis días, despertar y llamarte mi esposa, porque ver Orgullo y Prejuicio por más ridículo que te parezca, era fruto del arrepentimiento de negarme a verla contigo, y como desearía poder voltear a tus ojos en cada escena en que pensé en ti.
 """
