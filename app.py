@@ -87,7 +87,7 @@ cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
     {"id": make_id("14-09-2025"), "title": "14-09-2025", "content": card_14},
     {"id": make_id("15-09-2025"), "title": "15-09-2025", "content": card_15},
-    {"id": make_id("especial"), "title": "De un día cualquiera", "content": card_15},
+    {"id": make_id("especial"), "title": "De un día cualquiera", "content": card_16},
 ]
 
 css = """
