@@ -9,7 +9,13 @@ card_18 = """
 
 PD: Iré borrando las cartas antiguas, las conservaré para mí, se que ya no me amas, se que no las guardarás. Tengo miedo de que me odies, tengo miedo de tu rencor, no me destruyas por favor.
 """
-card_19 ="""
+card_19 ="""En la noche me comí unas tostadas, no estaban tan ricas, me duele el estómago porque por alguna razón comer me duele. No puedo levantarme, tengo cosas que hacer y no puedo hacerlas.
+
+No me arrepiento de nada de lo que hice, me deja en paz saber que lo intenté. Jamás imaginé que las cosas serían así, hubo promesas que se rompieron y son puñaladas que me atraviesan desde el estómago hasta la garganta.
+
+Se supone que mostrarte mi debilidad, mi disposición y saber de mí en general ayuda a que me puedas olvidar. Pero tú estás bien.
+
+Voy a dormir un rato más
 """
 cards = [
     {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
