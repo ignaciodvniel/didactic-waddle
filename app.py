@@ -5,25 +5,7 @@ import streamlit as st
 def make_id(title):
     return "card-" + re.sub(r'[^0-9a-zA-Z\\-]+', '-', title)
 
-card_18 = """Si amas algo déjalo ir, es cierto. No mandaré más mensajes, desapareceré de tu vida y lidiaré con verte en los lugares que ambos frecuentamos. Te dejaré ir y espero que vuelvas, espero seas feliz sin mí, pero yo sería el doble de feliz si es conmigo.
-
-No me quejaré más, no habrá más lamentos ni palabras tristes, aunque el tono de estas cartas siempre será el que es. Quisiera saber cómo estás, quisiera hablar con tu abuela y hacerle saber la maravillosa nieta que tiene, tan amable y sensible. Tu mamá me odiaría tanto, aunque aún no viene a tirarme de las patas y se lo agradezco, el lugar en donde está debe ser muy hermoso y pacífico, aunque no lo creas extrañaré por siempre a esa mujer.
-
-Hoy intentaré salir a caminar, quizás no pueda, también debo entregar un informe a la agrícola de mi tesis, y es muy difícil, además, en octubre tengo mi primera prueba y soy incapaz de estudiar. Qué difícil es romper esta rutina, me consuela saber que estás mucho mejor que yo.
-
-También debo hacer ejercicio, la falta de apetito me está quitando grasa pero también musculatura, me fuerzo a comer carne pero hace tiempo que no la disfruto, no como antes al menos. Me imagino que tengo que comer proteína, pero sigo en un déficit muy alto y el estrés no está ayudando. Siempre quise ser fuerte pero mis estúpidas rodillas me daban vergüenza, evitaba los deportes porque no podía jugar sin dolor y sin salir a quejarme por algo. Estoy haciendo calistenia ahora que cerró el gimnasio por el receso, necesito mantener el hábito y voy bien, aunque me siento muy débil aún.
-
-Una de mis motivaciones y quizás la más grande (y estúpida) es que me veas y digas “que guapo se ve”. Siento que nunca te pude dar un cuerpo equivalente al tuyo, siempre fui bastante dejado y feo. Sigo sin tener un cuerpo hegemónico pero al menos ya no me doy asco. Olvidemos este párrafo.
-
-Fui a ver a mi abuela el día antes de verte, no supo que decirme respecto a nuestra relación, que era muy contemporánea. Supongo que ellos se casaban y se resignaban toda la vida a ello, nunca lo entenderé. Además, pude notar como verme fumar y no comer le afectó, quizás debí mostrarme más fuerte, lo intenté.
-
-Mi mamá también escribió, pero le dije que no podía confiar en ella (con un perdón posterior) ¿Sabías que nunca aportó económicamente? Me parece muy fuerte, sabía que fue mala madre pero pensé que al menos le daba una cantidad mínima de plata a mis abuelos. Siempre escuché que me abandonó, pero yo elegía pensar que estábamos peleados, de hecho, prefiero creer eso.
-
-Cómo puedo hablar de ti si ya no sé nada. Me alegro mucho de que vayas a ver a Sabrina, es algo muy impresionante, pero me da celos que te vayan a ver tantos hombres (sí), incluso me da celos que te hable el weon del programa de citas, csm por favor no lo hagas, y ni hablemos del depredador.
-
-Quitemos las bromas (no tan bromas), saber que ya no me amas es duro y escribirte los párrafos más depresivos no es la idea. Objetivamente te superaré, entendiéndolo como poder tener una vida sin depender de ti, actualmente me es imposible, renunciaré al doctorado. No tiene caso seguir la vida que tenía planeada contigo, voy a llorar y seguir llorando y quizás vaya al psicólogo.
-
-No quiero que me olvides, porque eso implica perderte para siempre, perderte al nivel más ínfimo de humanidad.
+card_18 = """
 
 PD: Iré borrando las cartas antiguas, las conservaré para mí, se que ya no me amas, se que no las guardarás. Tengo miedo de que me odies, tengo miedo de tu rencor, no me destruyas por favor.
 """
