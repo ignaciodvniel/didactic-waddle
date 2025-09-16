@@ -15,7 +15,17 @@ No me arrepiento de nada de lo que hice, me deja en paz saber que lo intenté. J
 
 Se supone que mostrarte mi debilidad, mi disposición y saber de mí en general ayuda a que me puedas olvidar. Pero tú estás bien.
 
-Voy a dormir un rato más
+Voy a dormir un rato más.
+
+PD:
+
+No pude hacer nada de lo que te dije, las flores fueron las más bellas que encontré y me emocionaba pensar la pequeña posibilidad de que las olieras, dijeras que son hermosas y las pusieras en un jarrón en vez de botarlas.
+
+Me ejercité hasta que mis músculos ardieron, pero no puedo llegar a los 130g de proteína, solo hice ~80g, no puedo forzarme a comer más, hasta para eso soy un perdedor. Posteriormente me dormí del agotamiento de quien sabe qué (falta de carbohidratos?) y lamentablemente volví a soñar contigo, esta vez no habían suspiros, calor ni abrazos, solo conversaciones inacabables, de cuando disfrutabas hablarme.
+
+Como duele despertar después de volver a ser feliz, abrir los ojos y no encontrar nada más que cenizas, dolor y la pregunta de siempre ¿Cómo pudiste dejarme? Eras mi princesa, mi única preocupación y fallé, pudiste olvidarme.
+
+Lees estas cartas?
 """
 cards = [
     {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
