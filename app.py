@@ -37,7 +37,7 @@ Es cierto, todos merecemos sentirnos felices y realizados, pase lo que pase. Si 
 
 Ya no hay nada más que hablar, te di la despedida más gentil y llena de amor, pero tu cortaste al escucharme decir “Ok, se acabó” ¿Por qué? Porque no me amas. 
 
-Lamentablemente no pudiste cerrar este ciclo en buenos términos, tus palabras fueron vacías y te picaban las manos por deshacerte de mí o de esa llamada. Encontraré a alguien que sea el amor de mi vida, y seré mucho mejor pareja a diferencia de ti, porque yo me humillé por amor, porque luché por saber lo que pasó y cómo mejorar. No es un ataque por Dios, tu no eres una santa.
+Lamentablemente no pudiste cerrar este ciclo en buenos términos, tus palabras fueron vacías y te picaban las manos por deshacerte de mí o de esa llamada. Encontraré a alguien que sea el amor de mi vida, y seré mucho mejor pareja a diferencia de ti, porque yo me humillé por amor, porque luché por saber lo que pasó y cómo mejorar.
 
 En síntesis, no te odio, no te guardo ningún tipo de rencor, jamás pensé en ti en ninguna canción de despecho, porque tu mamá tenía razón, soy un caballero. Fuiste la mujer que amé, y voy a respetar tu nombre hasta siempre. Sigue haciéndome mierda con tus amigas, sigue comiéndote weones frente a mí, sigue haciéndome saber lo mejores que son en comparación de mí (cuando yo solo pude decir que eres mejor que todas mis tinder-citas (otra maldita crueldad tuya, parece que omites que tú me dejaste) o minas que conocí), yo estaré aquí para decir solo buenas palabras de ti y comerme todo el odio que sembraste.
 
