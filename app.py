@@ -9,23 +9,7 @@ card_18 = """
 
 PD: Iré borrando las cartas antiguas, las conservaré para mí, se que ya no me amas, se que no las guardarás. Tengo miedo de que me odies, tengo miedo de tu rencor, no me destruyas por favor.
 """
-card_19 ="""Esta carta es dura y no fue mi intención hacerla así, pero si el haberme amado no te hace recapacitar en tus acciones me sale esto:
-
-Nadie que no sea un infiel o un abusador mental/físico merece que lo terminen, es un acto de crueldad, inmadurez y/o simplemente falta de amor.
-
-Me dejaste de amar por mi actitudes, está bien, no quisiste arreglar las cosas, entonces tu amor nunca fue tan inmenso como creías. Es hiriente, y tus canciones me confirman que tu intención fue herirme, yo te doy asco y lo comprendo, pero no lo comparto. No importa lo mucho que intentes justificarte, me prometiste amor incondicional y lo rompiste, tú sabes que pudimos solucionarlo como muchas cosas antes, pero elegiste abandonarme. 
-
-Es cierto, todos merecemos sentirnos felices y realizados, pase lo que pase. Si cometiste errores, puedes aprender de ellos. En el futuro, no los vas a repetir cuando importe, pero ese es el punto, dejé de importarte, dejaste de amarme y me obligaste a leer tu carta de despecho, muy distinta a la mía.
-
-Ya no hay nada más que hablar, te di la despedida más gentil y llena de amor, pero tu cortaste al escucharme decir “Ok, se acabó” ¿Por qué? Porque no me amas. 
-
-Lamentablemente no pudiste cerrar este ciclo en buenos términos, tus palabras fueron vacías y te picaban las manos por deshacerte de mí o de esa llamada. Encontraré a alguien que sea el amor de mi vida, y seré mucho mejor pareja a diferencia de ti, porque yo me humillé por amor, porque luché por saber lo que pasó y cómo mejorar.
-
-En síntesis, no te odio, no te guardo ningún tipo de rencor, jamás pensé en ti en ninguna canción de despecho, porque tu mamá tenía razón, soy un caballero. Fuiste la mujer que amé, y voy a respetar tu nombre hasta siempre. Sigue haciéndome mierda con tus amigas, sigue comiéndote weones frente a mí, sigue haciéndome saber lo mejores que son en comparación de mí (cuando yo solo pude decir que eres mejor que todas mis tinder-citas (otra maldita crueldad tuya, parece que omites que tú me dejaste) o minas que conocí), yo estaré aquí para decir solo buenas palabras de ti y comerme todo el odio que sembraste.
-
-Te aconsejo tocar este tema en tu terapia, no es normal que odies a tantas personas, no es normal odiar de por sí. Y tratar mal a la persona que dedicó su mundo durante todo tu período universitario es preocupante.
-
-Hasta nunca, Antonia. Espero esto te haga mejorar como persona y actúes como dices te criaron, como la persona de la cual me enamoré.
+card_19 ="""
 """
 cards = [
     {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
