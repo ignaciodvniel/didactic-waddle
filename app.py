@@ -118,7 +118,8 @@ Cómo puedo hablar de ti si ya no sé nada. Me alegro mucho de que vayas a ver a
 
 Quitemos las bromas (no tan bromas), saber que ya no me amas es duro y escribirte los párrafos más depresivos no es la idea. Objetivamente te superaré, entendiéndolo como poder tener una vida sin depender de ti, actualmente me es imposible, renunciaré al doctorado. No tiene caso seguir la vida que tenía planeada contigo, voy a llorar y seguir llorando y quizás vaya al psicólogo.
 
-No quiero que me olvides, porque eso implica perderte para siempre, perderte al nivel más ínfimo de humanidad."""
+No quiero que me olvides, porque eso implica perderte para siempre, perderte al nivel más ínfimo de humanidad.
+"""
 
 cards = [
     {"id": make_id("13-09-2025"), "title": "13-09-2025", "content": card_13},
