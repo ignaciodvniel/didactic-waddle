@@ -41,6 +41,8 @@ Ya me está dando sueño, hoy vienen mis amigos a tomar, pero yo no pienso hacer
 No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo celos pero ya no somos nada. Sin más que contarte, dejo esta carta por aquí.
 
 “Sueño contigo, pienso en ti todo el tiempo, no puedo emocionarme por ninguna otra mujer. No hay nada más que decir, te amo”
+
+https://goo.su/PkK4
 """
 
 cards = [
