@@ -27,9 +27,24 @@ Como duele despertar después de volver a ser feliz, abrir los ojos y no encontr
 
 Lees estas cartas?
 """
+
+card_20 = """Son las 3:12 am, acabo de bañarme y acostarme. Salí cerca de las 11:30 pm a caminar, puse música y no paré hasta que sentí la boca seca y las piernas quemando, fueron un poco más de 20.000 pasos. Mi mente se despejó,  a ratos la vista se me empapaba y callaba esos pensamientos acelerando el paso, trotando.
+
+Desde que te fuiste vi algunas películas y sobretodo no paro de escuchar música, de cierta forma el romperme los oídos me ayuda en el proceso. Slowdive, Deftones, The Smiths, The Marias, Cigarettes After Sex, Joy Division y sobretodo Radiohead -me encanta Radiohead- especialmente “How to Disappear Completely”, “Let Down”y “Street Spirit”, también disfruto mucho “Phantom Bride” y “Rosemary” de Deftones. Mi favorita de Cigarettes After Sex es “Crush”.
+
+No puedo dormir, no quiero soñar ni que exista silencio, acelero el tap del teclado para huir de esos flashes, es inútil. Otra vez huí de mis responsabilidades, ya no quiero seguir con esto, la tos no se me pasa.
+
+Estoy tan flaco, siempre quise ser así, pero no me voy a conformar, quiero el cuerpo que siempre quise darte. Perdí el apetito, el sentido del gusto, eso ayuda y espero me dure lo suficiente para un verano sin polera (?).
+
+Ya me está dando sueño, hoy vienen mis amigos a tomar, pero yo no pienso hacerlo. Temo por mis riñones y quiero seguir bajando de peso. Mañana mi abuela hará empanadas, pensé en decirle que no, odio comer.
+
+No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo celos pero ya no somos nada. Sin más que contarte, dejo esta carta por aquí.
+"""
+
 cards = [
     {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
     {"id": make_id("fin"), "title": "fin", "content": card_19},
+    {"id": make_id("17-09-2025"), "title": "17-09-2025", "content": card_20},
 ]
 
 css = """
