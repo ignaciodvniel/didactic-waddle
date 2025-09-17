@@ -39,6 +39,8 @@ Estoy tan flaco, siempre quise ser así, pero no me voy a conformar, quiero el c
 Ya me está dando sueño, hoy vienen mis amigos a tomar, pero yo no pienso hacerlo. Temo por mis riñones y quiero seguir bajando de peso. Mañana mi abuela hará empanadas, pensé en decirle que no, odio comer.
 
 No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo celos pero ya no somos nada. Sin más que contarte, dejo esta carta por aquí.
+
+“Sueño contigo, pienso en ti todo el tiempo, no puedo emocionarme por ninguna otra mujer. No hay nada más que decir, te amo”
 """
 
 cards = [
