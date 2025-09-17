@@ -30,7 +30,7 @@ Lees estas cartas?
 
 card_20 = """Son las 3:12 am, acabo de bañarme y acostarme. Salí cerca de las 11:30 pm a caminar, puse música y no paré hasta que sentí la boca seca y las piernas quemando, fueron un poco más de 20.000 pasos. Mi mente se despejó,  a ratos la vista se me empapaba y callaba esos pensamientos acelerando el paso, trotando.
 
-Desde que te fuiste vi algunas películas y sobretodo no paro de escuchar música, de cierta forma el romperme los oídos me ayuda en el proceso. Slowdive, Deftones, The Smiths, The Marias, Cigarettes After Sex, Joy Division y sobretodo Radiohead -me encanta Radiohead- especialmente “How to Disappear Completely”, “Let Down”y “Street Spirit”, también disfruto mucho “Phantom Bride” y “Rosemary” de Deftones. Mi favorita de Cigarettes After Sex es “Crush”.
+Desde que te fuiste vi algunas películas (https://goo.su/PkK4) y sobretodo no paro de escuchar música, de cierta forma el romperme los oídos me ayuda en el proceso. Slowdive, Deftones, The Smiths, The Marias, Cigarettes After Sex, Joy Division y sobretodo Radiohead -me encanta Radiohead- especialmente “How to Disappear Completely”, “Let Down”y “Street Spirit”, también disfruto mucho “Phantom Bride” y “Rosemary” de Deftones. Mi favorita de Cigarettes After Sex es “Crush”.
 
 No puedo dormir, no quiero soñar ni que exista silencio, acelero el tap del teclado para huir de esos flashes, es inútil. Otra vez huí de mis responsabilidades, ya no quiero seguir con esto, la tos no se me pasa.
 
@@ -41,8 +41,6 @@ Ya me está dando sueño, hoy vienen mis amigos a tomar, pero yo no pienso hacer
 No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo celos pero ya no somos nada. Sin más que contarte, dejo esta carta por aquí.
 
 “Sueño contigo, pienso en ti todo el tiempo, no puedo emocionarme por ninguna otra mujer. No hay nada más que decir, te amo”
-
-https://goo.su/PkK4
 """
 
 cards = [
