@@ -43,10 +43,22 @@ No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo c
 “Sueño contigo, pienso en ti todo el tiempo, no puedo emocionarme por ninguna otra mujer. No hay nada más que decir, te amo”
 """
 
+card_21 = """Cómo me duele esa escena, te acercaste a mí y me apartaste con otro hombre. No entiendo lo que pasó, entiendo que hice cosas malas pero yo me quedé contigo en los momentos más difíciles ¿Qué es lo que pasó? No fue suficiente amarte y cuidarte hasta el día de hoy.
+
+No importa lo que pase, yo te amo tanto, eres mi mundo y mi vida entera. No puedo enojarme contigo, quiero abrazarte y decirte que todo estará bien, que voy a estar contigo para toda la vida, que lo que pase lo arreglaremos y seremos felices, en nuestra acogedora casa en el campo.
+
+Tomé un terremoto, odio el alcohol. Odio estar sin ti porque eres el amor de mi vida, odio que ya no me ames, no me rendiré. Seguiré con la tristeza, la superación, pero siempre estaré para ti, esperando. No hay nada que me pueda detener, excepto tus palabras y ruego no lo hagas, no me alejes de ese sentir.
+
+Cada cigarro es diferente, es un recuerdo y lo mantengo, ni todo lo que ha pasado puede quitarme el cariño y el amor que te tengo. Te amo para siempre antonita, mi princesa que prometí cuidar.
+
+Voy a seguir conversando, lo intentaré.
+"""
+
 cards = [
     {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
     {"id": make_id("fin"), "title": "fin", "content": card_19},
     {"id": make_id("17-09-2025"), "title": "17-09-2025", "content": card_20},
+    {"id": make_id("18-09-2025"), "title": "18-09-2025", "content": card_21},
 ]
 
 css = """
