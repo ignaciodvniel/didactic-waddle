@@ -52,6 +52,9 @@ Tomé un terremoto, odio el alcohol. Odio estar sin ti porque eres el amor de mi
 Cada cigarro es diferente, es un recuerdo y lo mantengo, ni todo lo que ha pasado puede quitarme el cariño y el amor que te tengo. Te amo para siempre antonita, mi princesa que prometí cuidar.
 
 Voy a seguir conversando, lo intentaré.
+
+“Pero no sabes lo que es despertar junto a una mujer y de veras sentir que la amas, pero no has mirado a una y te has sentido vulnerable, ninguna te ha despertado con sus ojos, ni has sentido que Dios puso a ese ángel en la tierra para ti, para liberarte del infierno. Tampoco sabes qué es ser su ángel, ni sabes que ese amor seguirá para siempre, sobre todo. Pero no la conoces, no has sentido ese dolor, porque eso solo ocurre cuando has amado a alguien mucho más que a ti mismo, y dudo que algún día te atrevas a amar tanto así.”
+
 """
 
 cards = [
