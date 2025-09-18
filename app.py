@@ -5,63 +5,10 @@ import streamlit as st
 def make_id(title):
     return "card-" + re.sub(r'[^0-9a-zA-Z\\-]+', '-', title)
 
-card_18 = """
-
-PD: Iré borrando las cartas antiguas, las conservaré para mí, se que ya no me amas, se que no las guardarás. Tengo miedo de que me odies, tengo miedo de tu rencor, no me destruyas por favor.
+card_1 = """Seguiré escribiendo para mí, esto es estúpido.
 """
-card_19 ="""En la noche me comí unas tostadas, no estaban tan ricas, me duele el estómago porque por alguna razón comer me duele. No puedo levantarme, tengo cosas que hacer y no puedo hacerlas.
-
-No me arrepiento de nada de lo que hice, me deja en paz saber que lo intenté. Jamás imaginé que las cosas serían así, hubo promesas que se rompieron y son puñaladas que me atraviesan desde el estómago hasta la garganta.
-
-Se supone que mostrarte mi debilidad, mi disposición y saber de mí en general ayuda a que me puedas olvidar. Pero tú estás bien.
-
-Voy a dormir un rato más.
-
-PD:
-
-No pude hacer nada de lo que te dije, las flores fueron las más bellas que encontré y me emocionaba pensar la pequeña posibilidad de que las olieras, dijeras que son hermosas y las pusieras en un jarrón en vez de botarlas.
-
-Me ejercité hasta que mis músculos ardieron, pero no puedo llegar a los 130g de proteína, solo hice ~80g, no puedo forzarme a comer más, hasta para eso soy un perdedor. Posteriormente me dormí del agotamiento de quien sabe qué (falta de carbohidratos?) y lamentablemente volví a soñar contigo, esta vez no habían suspiros, calor ni abrazos, solo conversaciones inacabables, de cuando disfrutabas hablarme.
-
-Como duele despertar después de volver a ser feliz, abrir los ojos y no encontrar nada más que cenizas, dolor y la pregunta de siempre ¿Cómo pudiste dejarme? Eras mi princesa, mi única preocupación y fallé, pudiste olvidarme.
-
-Lees estas cartas?
-"""
-
-card_20 = """Son las 3:12 am, acabo de bañarme y acostarme. Salí cerca de las 11:30 pm a caminar, puse música y no paré hasta que sentí la boca seca y las piernas quemando, fueron un poco más de 20.000 pasos. Mi mente se despejó,  a ratos la vista se me empapaba y callaba esos pensamientos acelerando el paso, trotando.
-
-Desde que te fuiste vi algunas películas (https://goo.su/PkK4) y sobretodo no paro de escuchar música, de cierta forma el romperme los oídos me ayuda en el proceso. Slowdive, Deftones, The Smiths, The Marias, Cigarettes After Sex, Joy Division y sobretodo Radiohead -me encanta Radiohead- especialmente “How to Disappear Completely”, “Let Down”y “Street Spirit”, también disfruto mucho “Phantom Bride” y “Rosemary” de Deftones. Mi favorita de Cigarettes After Sex es “Crush”.
-
-No puedo dormir, no quiero soñar ni que exista silencio, acelero el tap del teclado para huir de esos flashes, es inútil. Otra vez huí de mis responsabilidades, ya no quiero seguir con esto, la tos no se me pasa.
-
-Estoy tan flaco, siempre quise ser así, pero no me voy a conformar, quiero el cuerpo que siempre quise darte. Perdí el apetito, el sentido del gusto, eso ayuda y espero me dure lo suficiente para un verano sin polera (?).
-
-Ya me está dando sueño, hoy vienen mis amigos a tomar, pero yo no pienso hacerlo. Temo por mis riñones y quiero seguir bajando de peso. Mañana mi abuela hará empanadas, pensé en decirle que no, odio comer.
-
-No quiero que llegue el 18, no quiero que vuelva a pasar lo de la fonda, tengo celos pero ya no somos nada. Sin más que contarte, dejo esta carta por aquí.
-
-“Sueño contigo, pienso en ti todo el tiempo, no puedo emocionarme por ninguna otra mujer. No hay nada más que decir, te amo”
-"""
-
-card_21 = """Cómo me duele esa escena, te acercaste a mí y me apartaste con otro hombre. No entiendo lo que pasó, entiendo que hice cosas malas pero yo me quedé contigo en los momentos más difíciles ¿Qué es lo que pasó? No fue suficiente amarte y cuidarte hasta el día de hoy.
-
-No importa lo que pase, yo te amo tanto, eres mi mundo y mi vida entera. No puedo enojarme contigo, quiero abrazarte y decirte que todo estará bien, que voy a estar contigo para toda la vida, que lo que pase lo arreglaremos y seremos felices, en nuestra acogedora casa en el campo.
-
-Tomé un terremoto, odio el alcohol. Odio estar sin ti porque eres el amor de mi vida, odio que ya no me ames, no me rendiré. Seguiré con la tristeza, la superación, pero siempre estaré para ti, esperando. No hay nada que me pueda detener, excepto tus palabras y ruego no lo hagas, no me alejes de ese sentir.
-
-Cada cigarro es diferente, es un recuerdo y lo mantengo, ni todo lo que ha pasado puede quitarme el cariño y el amor que te tengo. Te amo para siempre antonita, mi princesa que prometí cuidar.
-
-Voy a seguir conversando, lo intentaré.
-
-“Pero no sabes lo que es despertar junto a una mujer y de veras sentir que la amas, pero no has mirado a una y te has sentido vulnerable, ninguna te ha despertado con sus ojos, ni has sentido que Dios puso a ese ángel en la tierra para ti, para liberarte del infierno. Tampoco sabes qué es ser su ángel, ni sabes que ese amor seguirá para siempre, sobre todo. Pero no la conoces, no has sentido ese dolor, porque eso solo ocurre cuando has amado a alguien mucho más que a ti mismo, y dudo que algún día te atrevas a amar tanto así.”
-
-"""
-
 cards = [
-    {"id": make_id("16-09-2025"), "title": "16-09-2025", "content": card_18},
-    {"id": make_id("fin"), "title": "fin", "content": card_19},
-    {"id": make_id("17-09-2025"), "title": "17-09-2025", "content": card_20},
-    {"id": make_id("18-09-2025"), "title": "18-09-2025", "content": card_21},
+    {"id": make_id("???"), "title": "???", "content": card_1},
 ]
 
 css = """
