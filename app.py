@@ -5,8 +5,11 @@ import streamlit as st
 def make_id(title):
     return "card-" + re.sub(r'[^0-9a-zA-Z\\-]+', '-', title)
 
-card_1 = """Seguiré escribiendo para mí, esto es estúpido. Si quiera los lees? Es ridículo o lo aprecias? no tengo idea.
+card_1 = """Hoy me enteré de lo que has dicho de mí, primero me entristeció, luego te comprendí. Lo que hiciste no está bien, fueron 3 años juntos y estuve en las malas y en las peores.
+
+Asumo que fue algo dicho desde la rabia, pero duele.
 """
+
 cards = [
     {"id": make_id("???"), "title": "???", "content": card_1},
 ]
